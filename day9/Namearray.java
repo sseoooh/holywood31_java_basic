@@ -1,48 +1,26 @@
-package day8;
+package day9;
 
-public class Namearray {
+public class NameArray {
 
 	public void test() {
-		
-		String[] names = new String[3];
-		names[0] = "홍길동";
-		names[1] = "이성계";
-		names[2] = "유재석";
-		
-		String res = "";
-		for(int i=0; i<3; i++) {
+		String[] name = new String[3];
+		name[0] = "홍길동";
+		name[1] = "장영실";
+		name[2] = "유관순";
+		String a = "";
+		for(int i = 0 ;i<3;i++ ) {
 			if(i<2) {
-				res = res+names[i]+",";
+				a += name[i]+",";
 			}else {
-				res = res+names[i]+"";
+				a += name[i]+"";
 			}
-				
 		}
-				System.out.println(res);
-}
-		public static void main(String[] args) {
-			Namearray a = new Namearray();
-			a.test();
-			
-		}
-}
+		System.out.println(a);
 		
-		
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-	
-
-
+	}
+	public static void main(String[] args) {
+		NameArray d = new NameArray();
+		d.test();
+	}
+}
 

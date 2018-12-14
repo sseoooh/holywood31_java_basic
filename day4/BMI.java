@@ -3,12 +3,8 @@ package day4;
 import java.util.Scanner;
 
 public class BMI {
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("몸무게를 입력하세요");
-		double weight = scan.nextDouble();
-		System.out.println("키를 입력하세요");
-		double height = scan.nextDouble();
+	public String test(double weight, double height) {
+		
 		
 		double ave = weight/((height*height/10000));
 		String bmiresult = "";
@@ -26,7 +22,8 @@ public class BMI {
 		}else if(ave<=18.4) {
 			bmiresult = "저체중";
 		}
-		System.out.println(ave+":"+bmiresult);
+		return ave+":"+bmiresult;
+		
 	}
 	
 }

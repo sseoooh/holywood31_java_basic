@@ -18,7 +18,7 @@ public class LeapYear {
 		}else {
 			leapyear = "평년";
 		}
-		System.out.println(year+":"+leapyear);
+		System.out.printf("%d:%d",year,leapyear);
 	}
 	
 	

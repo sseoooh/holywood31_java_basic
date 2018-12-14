@@ -17,6 +17,6 @@ public class GenderChecker {
 		case '6' : ssnresult="외국인"; break;
 		default : ssnresult="다시입력하세요"; break;
 		}
-		System.out.println(ssnresult);
+		System.out.printf("%s",ssnresult);
 	}
 }

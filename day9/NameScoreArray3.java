@@ -1,10 +1,10 @@
 package day9;
 import java.util.Scanner;
-public class NameScoreArray {
+public class NameScoreArray3 {
 
-	public static void main(String[] args) {
-		System.out.println("학생수 몇명?");
+	public void test() {
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("학생수 몇명?");
 		int count = scanner.nextInt();
 		String[] names = new String[count];
 		int[] scores =new int[count];
@@ -28,8 +28,6 @@ public class NameScoreArray {
 		
 	}
 	
-		
 	}
-	
 
 

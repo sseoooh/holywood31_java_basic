@@ -7,6 +7,10 @@ public class WhatName {
 		String name = scan.next();
 		
 	
-	System.out.println("저의 이름은 "+name+"입니다");
+	System.out.printf("저의이름은%s입니다",name);
 }
 }
+
+/*%s 문자 
+%d
+*/

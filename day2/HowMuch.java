@@ -19,7 +19,7 @@ public class HowMuch {
 		}else {
 			hmresult = hm;
 		}
-		System.out.println("총금액은"+hmresult*many+"입니다");
+		System.out.printf("총금액은%d입니다",hmresult*many);
 	}
 }
 

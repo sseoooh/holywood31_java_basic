@@ -23,6 +23,9 @@ public class Grade {
 		}else {
 			sresult = "F";
 		}
-		System.out.print(name+":"+"총점"+all+"점  "+"평균"+ave+"  "+"성적  "+sresult+"학점");
-}
+		System.out.printf("=======================\n"
+				+ "1.%s:+총점 %f점 2.평균%f  \n"
+				+ "3.성적  %s학점",name,all,ave,sresult);
+		//name+":"+"총점%f점  "+"평균%f  "+"성적  %s학점",all,ave,sresult
+	}
 }
